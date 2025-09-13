@@ -14,7 +14,7 @@ $services = @(
 # ===============================
 
 # Write-Host "=== Step 1: Build Docker images with Maven ==="
-# ./mvnw clean install -P buildDocker -DskipTests
+./mvnw clean install -P buildDocker -DskipTests
 
 Write-Host "=== Step 2: Tag and Push images to Docker Hub ==="
 
